@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Enumeration xmi:uuid='urn:uuid:8cce8360-9803-4de5-9bef-8f5a5257090d'
+   isAbstract='false'
+   isLeaf='false'
+   name='TipoNodo'
+   visibility='public'>
+  <ownedLiteral xmi:uuid='urn:uuid:5e44294b-fc25-4db3-8e54-369c51f5ab18'
+    name='ROOT'
+    visibility='public'/>
+  <ownedLiteral xmi:uuid='urn:uuid:f29a1478-df35-409c-9fd0-6516d0c0ca2f'
+    name='VARIABLE'
+    visibility='public'/>
+  <ownedLiteral xmi:uuid='urn:uuid:c6c4880e-dc22-4f56-bcd5-5b06fc71e6b3'
+    name='MULTIPLE'
+    visibility='public'/>
+  <ownedLiteral xmi:uuid='urn:uuid:204e7c44-e263-406c-b5b1-a88917953a69'
+    name='CALCULO'
+    visibility='public'/>
+  <ownedLiteral xmi:uuid='urn:uuid:e92936dc-a840-4828-a15f-9941c4c178e4'
+    name='NATIVO'
+    visibility='public'/>
+ </uml:Enumeration>
+</xmi:XMI>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<xmi:XMI xmi:version='2.1' xmlns:xmi='http://schema.omg.org/spec/XMI/2.1' xmlns:uml='http://schema.omg.org/spec/UML/2.1.1/uml.xml'>
+ <documentation exporter='Oracle JDeveloper' exporterVersion='11.1.2.0.0'/>
+ <uml:Class xmi:uuid='urn:uuid:6bf48621-968e-4891-b07d-94f4125cf762'
+   isAbstract='false'
+   isActive='false'
+   isLeaf='false'
+   name='Registro'
+   visibility='public'>
+  <ownedAttribute xmi:uuid='urn:uuid:3db7b8bc-639d-43db-8c0c-e533fdc4280f'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='nombre'
+    aggregation='none'
+    visibility='private'>
+   <type href='http://schema.omg.org/spec/UML/2.1.1/uml.xml#String'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:6e3e664f-7a55-4ac7-a77a-7b4aaf94e1b9'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:29316150-31d4-4ecf-860b-b150cf7525c5'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedAttribute xmi:uuid='urn:uuid:93d538fe-89d2-4e81-a437-e1d47da8c226'
+    isDerived='false'
+    isDerivedUnion='false'
+    isLeaf='false'
+    isOrdered='false'
+    isReadOnly='false'
+    isStatic='false'
+    isUnique='true'
+    name='valor'
+    aggregation='none'
+    visibility='private'>
+   <type href='mof:/double:uml:Type'/>
+   <lowerValue xmi:type='uml:LiteralInteger' xmi:uuid='urn:uuid:e4dc3300-6a92-4051-9ff7-594c112b35a5'
+     value='1'
+     visibility='public'/>
+   <upperValue xmi:type='uml:LiteralUnlimitedNatural' xmi:uuid='urn:uuid:288bf480-4af2-48c9-a6ea-a4ea3cde77fd'
+     value='1'
+     visibility='public'/>
+  </ownedAttribute>
+  <ownedOperation xmi:uuid='urn:uuid:efb2c168-0502-4557-b611-ebd66243634f'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getHijos'
+    concurrency='sequential'
+    visibility='private'>
+   <ownedParameter xmi:uuid='urn:uuid:95a8b157-0bc4-4a86-9942-0ce02214823f'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='mof:/Set%20Nodo:uml:Type'/>
+   </ownedParameter>
+  </ownedOperation>
+  <ownedOperation xmi:uuid='urn:uuid:ae056776-2756-4479-b957-d89eea3719d0'
+    isAbstract='false'
+    isLeaf='false'
+    isQuery='false'
+    isStatic='false'
+    name='getPadre'
+    concurrency='sequential'
+    visibility='private'>
+   <ownedParameter xmi:uuid='urn:uuid:14f7215c-ace8-414b-b938-32f00c1392a1'
+     isException='false'
+     isOrdered='false'
+     isStream='false'
+     isUnique='true'
+     direction='return'>
+    <type href='urn:uuid:40315426-d0f6-40e5-b86b-35c9ceac8837'/>
+   </ownedParameter>
+  </ownedOperation>
+ </uml:Class>
+</xmi:XMI>
